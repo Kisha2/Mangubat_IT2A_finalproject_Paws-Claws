@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Paws&Claws - Gallery</title>
+  <title>Paws&Claws - Main</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,7 +41,7 @@
         
         <i class="bi bi-camera"></i>
         <h1>
-        <?php 
+          <?php 
           echo "Paws & Claws";
           ?>
         </h1>
@@ -49,9 +49,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-        <li><a href="main.php"><?php echo "Home" ?></a></li>
+          <li><a href="main.php" class="active"><?php echo "Home" ?></a></li>
           <li><a href="about.php"><?php echo "About" ?></a></li>
-          <li class="dropdown"><a href="#" class="active"><span><?php echo "Gallery" ?></span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#"><span><?php echo "Gallery" ?></span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
             <li><a href="golden-retriever.php"><?php echo "Golden Retriever" ?></a></li>
             <li><a href="corgi.php"><?php echo "Corgi" ?></a></li>
@@ -83,168 +83,166 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
-
-    <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
-      <div class="container position-relative">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2><?php echo"Macaws"?></h2>
-            <p><?php echo"They are huge, vividly colorful parrots who are renowned for both their outstanding beauty and their intelligence. They have brilliant feathers, a long, beautiful tail, and a robust, sturdy frame. There are several different kinds of macaw, each with a distinctive color pattern, including the Scarlet Macaw, Blue and Gold Macaw, and Green-winged Macaw. Due to their high levels of social interaction, macaws require a lot of mental and physical stimulation. They can replicate human speech and a variety of sounds because of their excellent vocal skills. Lively and playful, macaws frequently like interactive toys and games."?></p>
-
-            <a class="cta-btn" href="contact.php"><?php echo"Contact us"?></a>
-
-          </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2><?php echo "Welcome to"?><span><?php echo "Paws & Claws"?></span></h2>
+          <p><?php echo "Enjoy the astounding variety and beauty of dogs, cats, birds, rabbits, and fish in our captivating photo galleries. Our visual content will awe and fascinate you with everything from the lively antics of puppies, rabbits, and kittens to the graceful movements of birds and the serene underwater world of fish. We acknowledge the unique personalities and characteristics of each species, indulging all animal lovers."?></p>
+          <a href="contact.php" class="btn-get-started"><?php echo "Contact Us"?></a>
         </div>
       </div>
-    </div><!-- End Page Header -->
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
 
     <!-- ======= Gallery Section ======= -->
-     <section id="gallery" class="gallery">
+    <section id="gallery" class="gallery">
       <div class="container-fluid">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src= <?php echo"assets/img/gallery/macaws/mac1.jpg"?> class="img-fluid" alt="">
+              <img src= <?php echo"assets/img/gallery/ming.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/ming.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac2.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/thrianta.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/thrianta.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac3.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/lobird.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/lobird.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac4.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/kity.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/kity.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac5.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/siamese-cat.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/siamese-cat.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac6.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/macaws.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/macaws.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac7.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/dove.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/dove.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac8.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/corgi.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac8.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/corgi.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac9.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/dog.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/dog.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac10.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/fuzzy.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac10.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/fuzzy.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac11.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/persian1.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac11.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/persian1.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac12.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/lovebirds.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac12.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/lovebirds.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac13.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/pets.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac13.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/pets.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac14.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/doggy.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac14.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/doggy.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac15.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/catty.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac15.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/catty.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src=<?php echo"assets/img/gallery/macaws/mac16.jpg"?> class="img-fluid" alt="">
+              <img src=<?php echo"assets/img/gallery/birds.jpg"?> class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/macaws/mac16.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/birds.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -257,13 +255,11 @@
 
   </main><!-- End #main -->
 
-    
-    
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright">
-      &copy; <?php echo"Copyright"?> <strong><span><?php echo"2023"?> <strong><span><?php echo"Paws & Claws"?></span></strong><?php echo". All Rights Reserved"?>
+        &copy; <?php echo"Copyright"?> <strong><span><?php echo"2023"?> <strong><span><?php echo"Paws & Claws"?></span></strong><?php echo". All Rights Reserved"?>
       </div>
       <div class="credits">
         

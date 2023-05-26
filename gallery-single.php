@@ -37,7 +37,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center  me-auto me-lg-0">
+      <a href="main.php" class="logo d-flex align-items-center  me-auto me-lg-0">
         
         <i class="bi bi-camera"></i>
         <h1>
@@ -49,7 +49,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php"><?php echo "Home" ?></a></li>
+          <li><a href="main.php"><?php echo "Home" ?></a></li>
           <li><a href="about.php"><?php echo "About" ?></a></li>
           <li class="dropdown"><a href="#" class="active"><span><?php echo "Gallery" ?></span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
